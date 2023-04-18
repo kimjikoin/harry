@@ -75,7 +75,7 @@ PM_START_TEXT = """
 *𝙃𝙀𝙔𝙊 * {}, 💜
 
 *๏ 𝙄 𝘼𝙈 * {} !
-➻ 𝙏𝙃𝙀 𝙈𝙊𝙎𝙏 𝙋𝙊𝙒𝙀𝙍𝙁𝙐𝙇 𝙂𝙍𝙊𝙐𝙋 𝙈𝘼𝙉𝘼𝙂𝙀𝙈𝙀𝙉𝙏 𝘼𝙉𝘿 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏 𝙒𝙄𝙏𝙃 𝙎𝙊𝙈𝙀 𝙎𝙀𝙓𝙔 𝘼𝙒𝙀𝙎𝙊𝙈𝙀 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎.
+➻ 𝙀𝙆 𝙎𝙀𝙀𝘿𝘼 𝙎𝙄𝙈𝙋𝙇𝙀 𝙎𝘼 𝘽𝘼𝘼𝙏 𝘽𝙊𝙇𝙏𝘼 𝙃𝙐 𝙎𝙐𝙉𝙊 - 𝙈𝙐𝙅𝙀 𝙏𝙐𝙈𝘼𝙍𝙀 𝙂𝙍𝙊𝙐𝙋 𝙈𝘼𝙄 𝘼𝘿𝘿 𝙆𝘼𝙍𝙊.
 
 ──────────────────
 *๏ 𝘾𝙇𝙄𝘾𝙆 𝙊𝙉 𝙏𝙃𝙀 𝙃𝙀𝙇𝙋 𝘽𝙐𝙏𝙏𝙊𝙉 𝙏𝙊 𝙂𝙀𝙏 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉 𝙊𝙁 𝙈𝙔 𝙈𝙊𝘿𝙐𝙇𝙀𝙎 𝘼𝙉𝘿 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎.*
@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAEQiVFkOn9-KVAHUAieRiDCQk5Jr9pTZAAC3ggAAlTA0FWcVn4XYmjPSi8E"
+                "CAACAgUAAxkBAAENtLFkPoP2MFQv31MSBe2Es5dyqRVNMwAC4wQAArWTWVWMOLAFMV-QyC8E"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
@@ -412,7 +412,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
-                            url="https://t.me/kimjikoinsupport",
+                            url="https://t.me/kannadigaxd",
                         ),
                     ],
                     [
